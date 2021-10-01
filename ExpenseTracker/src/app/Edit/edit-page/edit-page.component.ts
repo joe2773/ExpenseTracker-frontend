@@ -1,7 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { pipe, Observable } from 'rxjs';
-import {  ActivatedRoute, ParamMap } from '@angular/router'
 @Component({
     selector: 'app-edit-page',
     templateUrl: './edit-page.component.html',
@@ -9,15 +6,10 @@ import {  ActivatedRoute, ParamMap } from '@angular/router'
 })
 export class EditPageComponent implements OnInit {
 
-    constructor(
-        private http: HttpClient,
-        private route: ActivatedRoute
-    ) { }
+    constructor() { }
     
     
     ngOnInit(): void {
        
     }
-}
-
 }
