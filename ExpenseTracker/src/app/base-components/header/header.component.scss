@@ -1,0 +1,11 @@
+@use '~@angular/material' as mat;
+
+.header-container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position:relative;
+    top: 0;
+    width: 100%;
+    padding-top: 25px;
+}
