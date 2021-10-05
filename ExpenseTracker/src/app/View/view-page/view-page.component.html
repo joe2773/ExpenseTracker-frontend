@@ -1,13 +1,5 @@
 <div
     class="view-page__container">
-    <button
-        class="view-page__button"
-        (click)="fetchTransactions()">
-        go</button>
-    <div
-        *ngIf="(transactions$ | async) as transactions">
-        <app-view-search-results
-            [transactions]="transactions"></app-view-search-results>
-    </div>
-    
+    <app-search-header></app-search-header>
+    <app-view-search-results></app-view-search-results> 
 </div>
