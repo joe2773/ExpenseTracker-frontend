@@ -1,5 +1,8 @@
 <div
-    *ngFor="let transaction of transactions">
-    <app-view-transaction-card
-        [transaction] = "transaction"></app-view-transaction-card>
-</div>
+    *ngIf="(transactions$ | async ) as transactions">
+    <div
+        *ngFor="let transaction of transactions">
+        <app-view-transaction-card
+            [transaction] = "transaction"></app-view-transaction-card>
+    </div>
+</div>  

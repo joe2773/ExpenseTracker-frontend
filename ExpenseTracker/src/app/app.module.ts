@@ -11,6 +11,7 @@ import { LandingPageComponent } from './base-components/landing-page/landing-pag
 import { MatTabsModule } from '@angular/material/tabs';
 import { EditPageModule } from './Edit/edit-page/edit-page.module';
 import { ViewPageModule } from './View/view-page/view-page.module';
+import { SearchHeaderComponent } from './View/search-header/search-header.component';
 
 
 @NgModule({
