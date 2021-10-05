@@ -1,3 +1,13 @@
-.view-page-container {
+.view-page__container {
+    display: flex;
+    justify-content: center;
     padding: 25px;
+}
+
+.view-page__button {
+    margin-left: 25px;
+}
+
+.view-page__search-results {
+
 }
